@@ -1536,7 +1536,7 @@ restart_service() {
     # If systemctl exists,
     printf "test"
         # Otherwise, fall back to the service command
-        service "${1}" restart &> /dev/null
+        service "${1}" restart 
     printf "%b  %b %s...\\n" "${OVER}" "${TICK}" "${str}"
 }
 
@@ -2778,4 +2778,3 @@ main() {
 if [[ "${SKIP_INSTALL}" != true ]] ; then
     main "$@"
 fi
-
