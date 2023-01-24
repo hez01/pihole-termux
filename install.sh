@@ -1536,7 +1536,7 @@ restart_service() {
     # If systemctl exists,
     printf "test"
         # Otherwise, fall back to the service command
-        service "${1}" restart 
+        service "${1}" restart &> /dev/null
     printf "%b  %b %s...\\n" "${OVER}" "${TICK}" "${str}"
 }
 
