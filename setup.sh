@@ -1,6 +1,6 @@
 #!/bin/bash
 pkg update
-pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Debian/debian.sh && bash debian.sh to install proot'ed Debian (https://github.com/EXALAB/AnLinux-App)
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Debian/debian.sh && bash debian.sh
 su
 export PATH=$PATH:/data/data/com.termux/files/usr/bin/
 ./start-debian.sh
