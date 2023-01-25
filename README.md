@@ -21,4 +21,4 @@ Once script is finished, port 53 will be open. You can set up other devices to u
 Only tested on an emulator. The full script has not been tested.
 ## How it works:
 1. The script downloads and installs Debian Linux on your android (The script code taken from AnLinux https://f-droid.org/en/packages/exa.lnx.a/, do it at your own risk);
-2. On Debian, it just installs the pi-hole.
+2. On Debian, it just installs the pi-hole using the modified script from this repository. Modification is necessary because this version of Debian is using different system services manager.
