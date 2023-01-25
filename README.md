@@ -1,5 +1,7 @@
 # pihole-termux
 Host pi-hole server on your android phone.
+
+Do it at your own risk. I am not responsible for any damages that could happen. Script is provided as-is. May not even work.
 ## Requirements:
 - Root
 - Termux (https://f-droid.org/en/packages/com.termux/);
