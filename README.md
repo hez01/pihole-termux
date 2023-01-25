@@ -8,3 +8,5 @@ Host pi-hole server on your android phone.
 Various prompts will come up, mostly default options will do the job (make sure to click `continue` over `exit` in some cases);
 
 Once script is finished, port 53 will be open. You can set up other devices to use your phone as DNS resolver.
+
+Only tested on an emulator.
